@@ -1,0 +1,19 @@
+.texto {color: red;}
+
+table{ border-collapse: collapse; }
+td{ border: 1px solid black; padding: 12px; }
+.fil1{ background-color: lightskyblue; }
+.fil2{ background-color: lightcoral; }
+
+body>div {display: flex; flex-direction: column; border: 1px solid red;}
+body>div>div {display: flex; flex-direction: row; border: 1px solid blue;}
+body>div>div>div {width: 25%; border: 1px solid green;}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: grid; }
+#botones{ display: grid; grid-template-columns: repeat(2, 1fr); }
+button:hover {background-color: green;}
+button:hover + button {background-color: seagreen;}
